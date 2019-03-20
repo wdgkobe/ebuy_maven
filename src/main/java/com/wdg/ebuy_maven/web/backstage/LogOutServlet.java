@@ -1,13 +1,12 @@
-package web.backstage;
-
-import java.io.IOException;
-import java.io.PrintWriter;
+package com.wdg.ebuy_maven.web.backstage;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
 @WebServlet("/logout")
 public class LogOutServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)

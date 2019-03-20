@@ -1,7 +1,5 @@
-package web.backstage;
-
-import java.io.IOException;
-import java.io.PrintWriter;
+package com.wdg.ebuy_maven.web.backstage;
+import com.wdg.ebuy_maven.dao.AdminDao;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.IOException;
 
-import dao.AdminDao;
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 	AdminDao adminDao=new AdminDao();
