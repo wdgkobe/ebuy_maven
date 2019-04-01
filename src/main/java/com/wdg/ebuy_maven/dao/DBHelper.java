@@ -1,4 +1,4 @@
-package dao;
+package com.wdg.ebuy_maven.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

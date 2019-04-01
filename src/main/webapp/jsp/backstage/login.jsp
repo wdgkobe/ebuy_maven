@@ -47,7 +47,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <span class="systemlogo"></span> 
        
     <div class="loginbox">
-    <form action="<%=basePath%>login" method="post">
+    <form action="<%=basePath%>backstage/login" method="post">
     <ul>
     <li><input name="username" type="text" class="loginuser" value="admin" onclick="JavaScript:this.value=''"/></li>
     <li><input name="password" type="text" class="loginpwd" value="密码" onclick="JavaScript:this.value=''"/></li>

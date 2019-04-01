@@ -22,7 +22,7 @@ $(function(){
 <body style="background:url(images/topbg.gif) repeat-x;">
 
     <div class="topleft">
-    <a href="main.html" target="_parent"><img src="images/logo.png" title="系统首页" /></a>
+    <a href="main.jsp" target="_parent"><img src="images/logo.png" title="系统首页" /></a>
     </div>
         
     <ul class="nav">
@@ -42,7 +42,7 @@ $(function(){
     </ul>
      
     <div class="user">
-    <span>${sessionScope.name}</span>
+    <span>${sessionScope.admin.name}</span>
     <i>消息</i>
     <b>5</b>
     </div>    
